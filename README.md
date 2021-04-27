@@ -1,5 +1,6 @@
 # vetshop-2
 ---------------------PT-BR-----------------------
+
 Modelo (v.2) de site para petshops e veterinários
 
 Versão: 2.0
@@ -9,6 +10,7 @@ Versão anterior - navegação horizontal:
 
 
 -----------------------ENG------------------------
+
 Website template for petshops and veterinarians
 
 Version: 2.0
