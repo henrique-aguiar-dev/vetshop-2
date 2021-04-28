@@ -95,18 +95,6 @@ header {
 	height: 60px;
 }
 
-.header-left h1 {
-	font-size: 30px;
-	font-weight: lighter;
-	line-height: 66px;
-	color: var(--dark-blue);
-	letter-spacing: 0.1em;
-}
-
-.header-left h1 span {
-	font-size: 40px;
-}
-
 .header-right {
 	width: 80%;
 	text-align: right;
@@ -214,18 +202,12 @@ section.sobre {
 	padding: 0 10%;
 }
 
-.texto-sobre h1 {
-	font-weight: lighter;
-	letter-spacing: 0.1em;
-	text-align: center;
-}
-
 .textos-sobre p {
 	margin-top: 15px;
 }
 
-.texto-sobre h1 span {
-	font-size: 70px;
+.texto-sobre img {
+	max-width: 100%;
 }
 
 .espaco-sobre {
@@ -586,8 +568,12 @@ footer.footer {
 		padding: 10px 2%;
 	}
 
-	.header-left h1 {
+	.header-left a:last-child {
 		display: none;
+	}
+
+	.icons-header i {
+		margin: 5px;
 	}
 
 	@keyframes slideBg {
@@ -612,10 +598,6 @@ footer.footer {
 
 	.texto-sobre {
 		width: 100%;
-	}
-
-	.texto-sobre h1 span {
-		font-size: 50px;
 	}
 
 	.espaco-sobre {
@@ -657,6 +639,7 @@ footer.footer {
 
 /*------------- height <= 400px --------------*/
 @media (max-height: 400px) {
+
 	section.sobre {
 		height: 135%;
 	}
