@@ -5,7 +5,7 @@ Modelo (v.2) de site para petshops e veterinários
 
 Versão: 2.0
 
-https://apilogik.github.io/vetshop-2/
+https://henrique-aguiar-dev.github.io/vetshop-2/
 
 
 -----------------------ENG------------------------
